@@ -1,0 +1,13 @@
+<div class="container" >
+    <h2 class="titleTxt">Need the Post Code of an American City?</h2>
+    <div class="border"></div>
+
+    <div id="searchCont">
+        <input id="search" placeholder="Enter city name" type="text" autocomplete="off"
+        class="validate filter-input" [(ngModel)]=query (keyup)=filter($event) >
+
+        <div class="result" *ngFor="let address of filteredList">
+            <a routerLink="/map/{{address.city}}">{{address.city}}</a>
+        </div>
+    </div>
+</div>

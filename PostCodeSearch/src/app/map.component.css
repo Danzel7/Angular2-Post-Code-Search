@@ -1,0 +1,39 @@
+#map {
+    width: 500px;
+    margin: auto;
+    height: 500px;
+}
+.titleTxt{
+    color: #000;
+    text-align: center;
+    font-family: Muli;
+    letter-spacing: -1px;
+    font-size: 45px;
+    margin-top: 37px;
+    margin-bottom: 10px;
+}
+.redTxt{
+    color: #ac0e36;
+}
+.border{
+    width: 120px;
+    height: 3px;
+    background: red;
+    margin: auto;
+    background: linear-gradient(to right,#ac0e36,#aa7785);
+    transform: scale(1, 1);
+    margin-bottom: 20px;
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+/*@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    #map {
+        width: 250px;
+        height: 300px;
+    }
+}*/

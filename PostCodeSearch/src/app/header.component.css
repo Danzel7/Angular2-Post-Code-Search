@@ -1,0 +1,12 @@
+#header{
+    width: calc(100% - 56px);
+    height: 75px;
+    padding-top: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-bottom: 1px solid #e2e2e3;
+}
+.logo{
+    width: 134px;
+    height: 44px;
+}
